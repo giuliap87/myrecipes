@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.main {
+  min-height: calc(100vh - 150px);
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+}
+
+.logo {
+  color: $primaryColor;
+  letter-spacing: -1px;
+}

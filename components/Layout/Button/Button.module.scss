@@ -1,0 +1,38 @@
+@import "../../../styles/variables";
+
+.button {
+  border-radius: 5px;
+  width: max-content;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  background-color: $primaryColor;
+  color: $white;
+  transition: all 0.4s ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: $primaryColorDark;
+  transform: scale(1.08);
+}
+
+.button:active {
+  transform: scale(0.8);
+  background-color: $primaryColorDark;
+}
+
+.lg {
+  font-size: 20px;
+  height: 60px;
+  padding: 20px;
+}
+
+.md {
+  height: 45px;
+  font-size: 16px;
+}
+
+.sm {
+  font-size: 14px;
+}

@@ -1,0 +1,14 @@
+.container {
+  height: max-content;
+  margin-bottom: 80px;
+}
+
+.title {
+  text-align: center;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

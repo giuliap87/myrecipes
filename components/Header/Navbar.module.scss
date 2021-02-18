@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+.navbar {
+  background-color: $white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+.list {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.listItem {
+  text-transform: uppercase;
+  margin-right: 20px;
+  color: $primaryColor;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 22px;
+  letter-spacing: -1px;
+  color: $primaryColor;
+  font-weight: 700;
+}
+
+.border {
+  height: 3px;
+  border-radius: 3px;
+  width: 0%;
+  background-color: transparent;
+  margin-top: 5px;
+
+  transition: all 0.4s ease-in;
+}
+
+.listItem:hover .border {
+  width: 90%;
+  background-color: $primaryColor;
+}
